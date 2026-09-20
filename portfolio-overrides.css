@@ -1,0 +1,30 @@
+.photo-card {
+  width: clamp(220px, 22vw, 340px);
+  height: clamp(285px, 27vw, 420px);
+}
+
+.viewer-copy {
+  text-align: center;
+}
+
+.viewer-copy p {
+  margin: 0;
+}
+
+#viewer-caption {
+  font-size: 14px;
+}
+
+#viewer-source {
+  margin-top: 4px;
+  color: #a4a6a8;
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .photo-card {
+    width: 68vw;
+    height: 82vw;
+    max-height: 410px;
+  }
+}
